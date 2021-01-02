@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>apple homepage</title>
+  <style type="text/css">
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    position: fixed;
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    height: 40px;
+    font-size: 12pt;
+}
+
+ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 50px;
+}
+
+li {
+    list-style: none;
+    margin-left: 60px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding-top: 40px;
+}
+
+#banner_one, #banner_two, #banner_three {
+    background-image: url('https://images.pexels.com/photos/5443247/pexels-photo-5443247.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    height: 90vh;
+    background-position-y: -150px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40pt;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+.banner a {
+    font-size: 16pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner_two {
+    background-image: url('https://www.gizbot.com/images/2019-08/apple-iphone-11-concept_156680550340.jpg');
+    background-position-y: -50px;
+}
+
+#banner_three {
+    background-image: url('https://www.gizbot.com/images/2019-09/apple-iphone-11-pro-max_156819562300.jpg');
+    background-position-y: -100px;
+}
+
+.category {
+    display: flex;
+}
+
+.category .box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+}
+
+.category .box a { 
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+#box1 {
+    background-image: url('https://images.pexels.com/photos/1647976/pexels-photo-1647976.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#box2 {
+    background-image: url('https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color: black;
+}
+
+#box3 {
+    background-image: url('https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+}
+
+#box4 {
+    background-image: url('https://images.pexels.com/photos/1209435/pexels-photo-1209435.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color: black;
+}
+
+#box2 .label {
+    color: red;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+footer {
+    background-color: rgba(211,211,211,0.8);
+    width: 100%;
+    height: 100px;
+}
+
+footer .container {
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 20px;
+}
+
+footer .container > * {
+    font-size: 10pt;
+    color: gray;
+}
+
+</style>
+
+
+</head>
+<body>
+<header>
+        <nav>
+            <ul>
+                <li><a href="/"><img src="https://images.pexels.com/photos/544295/pexels-photo-544295.jpeg?cs=srgb&dl=pexels-armand-valendez-544295.jpg&fm=jpg" width="25" height="25"></a></li>
+                <li><a href="https://www.apple.com/in/mac/">Mac</a></li>
+                <li><a href="https://www.apple.com/in/ipad/">iPad</a></li>
+                <li><a href="https://www.apple.com/in/ipad/">iPhone</a></li>
+                <li><a href="https://www.apple.com/in/watch/">Watch</a></li>
+                <li><a href="https://www.apple.com/in/tv/">TV</a></li>
+                <li><a href="https://www.apple.com/in/music/">Music</a></li>
+                <li><a href="https://support.apple.com/en-in">Support</a></li>
+                <li><a href="https://www.apple.com/in/">Where to buy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="banner" id="banner_one">
+            <h1>iPhone SE</h1>
+            <h2>Lots of love. Less to spend.</h2>
+            <p><a href="https://www.apple.com/in/iphone-se/">Learn more ></a></p>
+        </div>
+
+        <div class="banner" id="banner_two">
+            <h1>iPhone 11</h1>
+            <h2>Just the right amount of everything.</h2>
+            <p><a href="https://www.apple.com/in/shop/buy-iphone/iphone-11">Learn more ></a></p>
+        </div>
+
+        <div class="banner" id="banner_three">
+            <h1>iPhone 11 Pro max</h1>
+            <h2>Pro cameras. Pro display. Pro performance.</h2>
+            <p><a href="https://www.apple.com/in/iphone-12-pro/">Learn more ></a></p>
+        </div>
+
+        <div class="category">
+            <div class="box" id="box1">
+                <h1>new year2021</h1>
+                <h2>Take a look at all of the announcements.</h2> <br>
+                <p><a href="/">Watch the keynote on our US site ></a></p>
+            </div>
+            <div class="box" id="box2">
+                <h1>Watch</h1>
+                <p class="label">Series 5</p>
+                <h2>With the Always-On Retina Display.</h2>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+        </div>
+        <div class="category">
+            <div class="box" id="box3">
+                <h1>MacBook Pro</h1>
+                <h2>Power. Moves.</h2> <br>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+            <div class="box" id="box4">
+                <h1>iPad Pro</h1>
+                <h2>Your next computer is not a computer.</h2>
+                <p><a href="/">Learn more ></a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+          <p>
+            <h1>created by RAJESH</h1>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
